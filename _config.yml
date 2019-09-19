@@ -10,9 +10,7 @@
 # title appears in the header
 title: Green NLP Workshop
 # description and keywords for meta tags
-description: "Workshop website for 2020 *ACL conferences.
-Roy Schwartz, Jesse Dodge, Anna Rogers, Rotem Dror
-"
+description: "Workshop website for 2020 *ACL conferences."
 keywords: "workshops, NLP, Green NLP, ACL"
 
 # author settings for cc-by, appears in the footer
@@ -26,10 +24,10 @@ repo: "https://github.com/evanwill/workshop-template"
 # site urls
 # add the url for the domain,
 # on gh-pages follow the pattern: https://username.github.io 
-url: https://evanwill.github.io
+url: https://greenlp.github.io
 # add subsection of the domain,
 # on gh-pages this is a / followed by the name of the repository
-baseurl: /workshop-template
+baseurl:
 
 # add google analytics if desired (optional)
 # if blank, it will be ignored
