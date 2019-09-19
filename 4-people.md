@@ -17,7 +17,7 @@ Anna Rogers works on interpretability of distributional meaning representations 
 **Rotem Dror**, Technion - Israel Institute of Technology, rtmdrr@technion.ac.il
 Rotem Dror is a senior PhD student at the Technion Institute of Technology, in the NLP Research Group of Prof. Roi Reichart. She works on statistical analysis and developing robust algorithms for NLP applications. She is a Google PhD Fellow.
 
-# Steering committee
+# Steering committee (in alphabetical order)
 
 Iryna Gurevych
 
