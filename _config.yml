@@ -8,15 +8,17 @@
 
 # Site settings
 # title appears in the header
-title: workshop-template
+title: Green NLP Workshop
 # description and keywords for meta tags
-description: "Create an OER workshop website quick and easy!"
-keywords: "workshops, OER, Open Education, websites, gh-pages, jekyll"
+description: "Workshop website for 2020 *ACL conferences.
+Roy Schwartz, Jesse Dodge, Anna Rogers, Rotem Dror
+"
+keywords: "workshops, NLP, Green NLP, ACL"
 
 # author settings for cc-by, appears in the footer
-author: evan will
-pub_year: 2018
-github_username: evanwill
+author: Rotem Dror
+pub_year: 2019
+github_username: rtmdrr
 
 # add the full url for the github repository
 repo: "https://github.com/evanwill/workshop-template"
