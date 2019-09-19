@@ -1,38 +1,18 @@
 ---
-title: Intro
+title: About
 nav: true
 ---
 
-# Introduction
+# About
 
-One amazingly useful GitHub feature is [GitHub Pages](https://guides.github.com/features/pages/){:target='_blank'}.
-It provides free static web hosting from any repository.
-Gh-pages is intended to host relatively simple sites for your GitHub portfolio, project, or documentation.
-Because it is free and a valuable transferable skill, this is a great option for teaching and learning.
+The amount of computation required for deep learning research in NLP has increased dramatically in the past few years. This has led to a surprisingly large carbon footprint for NLP experiments [(Strubell et al., 2019)](https://arxiv.org/abs/1906.02243), and to the financial cost of running experiments being increasingly burdensome for academics, students, and researchers, particularly those in emerging economies. These trends are the direct result of the NLP community primarily valuing state-of-the-art results, as opposed to comparing methods with varying amounts of data, model parameters, and hyperparameter trials ([Rogers et al., 2019](https://hackingsemantics.xyz/2019/leaderboards/); [Schwartz et al., 2019](https://arxiv.org/abs/1907.10597)).
 
-Many organizations are using GitHub to collaboratively create and publish instructional websites. 
-For example: 
-
-- [Programming Historian](http://programminghistorian.org/)
-- [Software Carpentry](https://software-carpentry.org/), [Data Carpentry](http://www.datacarpentry.org/), [Library Carpentry](https://librarycarpentry.org/)
-- this site!
-
-> Note:
-> There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
-> If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
-> All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene sex, or illegal stuff.
-
-# workshop-template
-
-`workshop-template` is a Jekyll project to create a simple workshop website, based on the [Minima theme](https://github.com/jekyll/minima){:target='_blank'}, designed for hosting on [gh-pages](https://pages.github.com/){:target='_blank'}.
-
-It works best for about 5 pages of instructions, plus index, all written in Markdown. 
-The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the lessons.
-
-## Why?
-
-Rather than making slides for a workshop, why not make a website? 
-It's easier to write, access, share, and reuse. 
-GitHub and gh-pages makes this super easy.
-
-It is a better [Open Educational Resource](https://en.wikipedia.org/wiki/Open_educational_resources){:target='_blank'} since anyone can easily fork and adapt!
+The Green NLP workshop aims to promote efficiency as a core evaluation criterion for NLP models alongside accuracy and related measures, to improve community norms around reporting experimental results (e.g. reporting training curves for large, pretrained models), and to facilitate more robust comparisons between approaches with varying amounts of resources.
+Our goal is to encourage submissions that:
+- Present efficient solutions to NLP problems. These include, among others, models that are efficient in:
+    - Training data ([e.g., Schwartz et al., 2018](https://aclweb.org/anthology/P18-1028))
+    - Training time (e.g., [Dettmers and Zettlemoyer, 2019](https://arxiv.org/abs/1907.04840); [Gururangan et al., 2019](https://arxiv.org/abs/1909.03004))
+    - Inference time (e.g., [Dodge et al., 2019b](https://arxiv.org/abs/1909.03011))
+    - Number of hyperparameter trails (e.g., [Li et al., 2017](https://openreview.net/pdf?id=ry18Ww5ee)) 
+- Report results which analyze the sensitivity of existing models to varying training data, training time, and hyperparameter trials ([Reimers  and  Gurevych, 2017](https://arxiv.org/abs/1707.09861); [Dodge et al., 2019a](https://arxiv.org/abs/1909.03004)).
+- Discuss and facilitate efficiency as an evaluation criterion: one of the biggest challenges in promoting efficient NLP is measuring the cost of experiments. Many different criteria for efficiency exist, such as runtime, number of parameters, floating point operations, and dollar cost. It’s often unclear, however, which criteria to use, and some criteria are difficult to measure [(Schwartz et al, 2019)](https://arxiv.org/abs/1907.10597). We hope to make progress by encouraging the development of easy-to-use solutions for measuring efficiency.
