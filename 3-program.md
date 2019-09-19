@@ -3,6 +3,6 @@ title: Program
 nav: true
 ---
 
-# Program
+# The program of the workshop
 
 
